@@ -19,4 +19,6 @@ class Employer(Person):
 obj = Employer('Random_name')
 print(obj.name)
 obj.display_info()
-obj.work()       
+obj.work()
+#класс  Employer полностю принимает функционла класа персон
+# для обьектов Employer недоступны скрытые атрубуты self.__name     
